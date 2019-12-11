@@ -1,0 +1,21 @@
+.LoginScreen {
+    background-color: #31b77e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginScreen form {
+    display: inline-block;
+}
+
+.LoginScreen input,
+.LoginScreen button {
+    display: block;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: 8px 0;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 2em;
+}
