@@ -1,6 +1,8 @@
 import React from 'react';
 import './BookScreen.css';
 
+const transparentGif = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+
 export default function BookScreen ({ tutors }) {
     if (!tutors) return null;
 
@@ -15,7 +17,7 @@ export default function BookScreen ({ tutors }) {
                                 src={`http://www.i-learner.edu.hk/img/tutors/${t.id}.jpg`}
                                 style={{ backgroundColor: t.colour, borderColor: t.colour }} 
                                 onLoad={e => e.target.style.minHeight = "10px"}
-                                onError={e => e.target.src = ""}
+                                onError={e => e.target.src = transparentGif}
                             />
                             <p className="BookScreen-name">{t.name}</p>
                             <p className="BookScreen-nameZH">{t.nameZH}</p>
