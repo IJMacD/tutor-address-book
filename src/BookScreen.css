@@ -10,7 +10,7 @@
 .BookScreen-Card {
     border: 1px solid rgba(0,0,0,0.5);
     box-shadow: 4px 4px 6px rgba(0,0,0,0.3);
-    width: 300px;
+    flex: 1 1 300px;
     height: 200px;
     display: block;
     margin: 12px;
