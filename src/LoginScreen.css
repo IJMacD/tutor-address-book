@@ -20,6 +20,13 @@
     font-size: 1.4em;
 }
 
+.LoginScreen-error {
+    color: red;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
 @media screen and (min-width: 768px) {
     .LoginScreen input,
     .LoginScreen button {
